@@ -1,7 +1,7 @@
 var friends = [
     {
       name: "Adam",
-      photo: "https://media.fromthegrapevine.com/assets/images/2015/10/matt-damon-martian-2.jpg.824x0_q71.jpg",
+      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "5",
         "1",
@@ -17,7 +17,7 @@ var friends = [
     },
     {
       name: "Jill",
-      photo: "https://media.fromthegrapevine.com/assets/images/2015/12/natalie-portman-jackie-kennedy.jpg.824x0_q71.jpg",
+      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "4",
         "2",
@@ -33,7 +33,7 @@ var friends = [
     },
     {
       name: "May",
-      photo: "https://ca.hellomagazine.com/celebrities/02017060536318/eco-friendly-celebrities/3",
+      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "5",
         "2",
@@ -49,7 +49,7 @@ var friends = [
     },
     {
       name: "Louise",
-      photo: "https://www.gettyimages.com.au/detail/photo/smiling-african-woman-in-sunshine-outdoors-profile-royalty-free-image/539293229?adppopup=true&uiloc=thumbnail_similar_images_adp",
+      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "3",
         "3",

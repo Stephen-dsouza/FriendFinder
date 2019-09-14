@@ -10,4 +10,4 @@
 
 
 ## Bugs to be fixed
-* Need to get the result  from the server and parse it to the modal
+* Validation chck to be done
