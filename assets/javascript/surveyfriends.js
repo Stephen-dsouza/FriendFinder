@@ -18,16 +18,31 @@ $(document).ready(function () {
                 $("#q10").val()
             ]
         };
-
-console.log(answers);
+// we send the 
         $.ajax("/api/survey", {
             type: "POST",
             data: answers
         }).then(
             function () {
                 console.log("answers received");
-
+                
             }
         );
-    });
+    })
+    
+    //***********************************************************************//
+    //HERE we need to get the json response  of the result from server and pass on to the modal
+    //not working as of now
+    $.ajax("/api/survey", {
+        type: "GET",
+    }).then(
+        function () {
+            console.log("result:"+result);
+            $("bestName").text(data.name);
+                $("#bestImg").attr("src", data.photo)
+                $('.modal').modal();
+        }
+    );
+
+    //***********************************************************************//
 });

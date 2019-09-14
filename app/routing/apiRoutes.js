@@ -1,11 +1,12 @@
 var friends = require('../data/friends.js');
-//Get the response from  AJAX post  done on submit button
-function apirouting(app) {
-    app.get("/api/survey", function (req, res) {
-        res.json(answers);
-    });
 
-    //This is to send the result back to client after finding the best match
+function apirouting(app) {
+    // app.get("/api/survey", function (req, res) {
+    //     res.json(answers);
+    // });
+
+
+// Get the response from  AJAX post  done on submit button.The result is  back to client after finding the best match.
     app.post("/api/survey", function (req, res) {
         //Initialise the best match parameters
         var bestMatch = {
@@ -15,6 +16,7 @@ function apirouting(app) {
         };
         //get the body from the request and set it against userData
         var userData = req.body;
+        console.log(userData)
         //get the scores from userdata
         var userScores = userData.scores;
         // set the matching difference to 0
@@ -23,7 +25,7 @@ function apirouting(app) {
         //loop through the number of friends in the array a
         for (var i = 0; i < friends.length; i++) {
 
-            console.log(friends[i].name);
+
             totalDifference = 0;
             //loop through each friends score
             for (var x = 0; x < friends[i].scores[x]; x++) {

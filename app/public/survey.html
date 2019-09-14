@@ -40,7 +40,7 @@
 
             <div class="invalid-feedback">
                 Please provide a valid choice.
-              </div>
+            </div>
         </div>
 
 
@@ -149,58 +149,84 @@
                 <option>4</option>
                 <option>5</option>
             </select>
-    </div>
-    </select>
-
-
-    <h3><strong>Question 9</strong></h3>
-    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or
-        not.</h4>
-    <div class="form-group">
-        <label for="sel1">Select An Option</label>
-        <select class="chosen-select" id="q9">
-            <option value="">Choose...</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+        </div>
         </select>
-    </div>
-    </select>
 
 
-    <h3><strong>Question 10</strong></h3>
-    <h4>You feel more energetic after spending time with a group of people.</h4>
-    <div class="form-group">
-        <label for="sel1">Select An Option</label>
-        <select class="chosen-select" id="q10">
-            <option value="">Choose...</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+        <h3><strong>Question 9</strong></h3>
+        <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or
+            not.</h4>
+        <div class="form-group">
+            <label for="sel1">Select An Option</label>
+            <select class="chosen-select" id="q9">
+                <option value="">Choose...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
         </select>
+
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>You feel more energetic after spending time with a group of people.</h4>
+        <div class="form-group">
+            <label for="sel1">Select An Option</label>
+            <select class="chosen-select" id="q10">
+                <option value="">Choose...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        </select>
+
+        <br>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                aria-hidden="true"></i>
+            Submit</button>
+
+        <hr>
+
     </div>
-    </select>
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">FRIEND MATCH</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Congrats. We have a Match for you</p>
+                        <h4>Your new friend's name is: <span id="bestName"></span></h4>
+                        <img id="bestImg">
+                        <!-- <p>Modal body text goes here.</p> -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-    <br>
-    <br>
-
-    <!-- Submit Button -->
-    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
-            aria-hidden="true"></i>
-        Submit</button>
-
-    <hr>
-
+                </div>
+            </div>
+        </div>
     </div>
+    </body>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="/javascript/surveyfriends.js"></script>
 
-</body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="/javascript/surveyfriends.js"></script>
-</body>
-​
+    </body>
+    ​
 
 </html>
