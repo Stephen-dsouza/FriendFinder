@@ -1,10 +1,10 @@
-var friends = require('../data/friends.js');
+var friends = require('../data/friendsData');
 
 function apirouting(app) {
-    // app.get("/api/survey", function (req, res) {
-    //     res.json(answers);
-    // });
-
+   
+    app.get('/api/friends', function(req, res){
+        res.json(friends);
+      });
 
 // Get the response from  AJAX post  done on submit button.The result is  back to client after finding the best match.
     app.post("/api/survey", function (req, res) {

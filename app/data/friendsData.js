@@ -1,7 +1,7 @@
 var friends = [
     {
       name: "Adam",
-      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
+      photo: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "5",
         "1",
@@ -17,7 +17,7 @@ var friends = [
     },
     {
       name: "Jill",
-      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
+      photo: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "4",
         "2",
@@ -33,7 +33,7 @@ var friends = [
     },
     {
       name: "May",
-      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
+      photo: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "5",
         "2",
@@ -49,7 +49,7 @@ var friends = [
     },
     {
       name: "Louise",
-      hoto: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
+      photo: "https://media.giphy.com/media/1AIfV67rM04bflbBDD/giphy-downsized.gif",
       scores: [
         "3",
         "3",
